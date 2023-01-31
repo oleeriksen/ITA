@@ -12,9 +12,7 @@ class Program
         int hour = DateTime.Now.Hour;
 
         Greeting.WriteGreeting(name, hour);
-        
 
-        
     }
 }
 
