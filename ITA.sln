@@ -5,6 +5,8 @@ VisualStudioVersion = 25.0.1704.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hello", "hello\hello.csproj", "{752C9BD6-C00E-4B89-A8CB-F93889AC1763}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpgaverModul1", "OpgaverModul1\OpgaverModul1.csproj", "{5CF9E2E1-FA67-4B47-BC4B-F9200F05A003}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{752C9BD6-C00E-4B89-A8CB-F93889AC1763}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{752C9BD6-C00E-4B89-A8CB-F93889AC1763}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{752C9BD6-C00E-4B89-A8CB-F93889AC1763}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CF9E2E1-FA67-4B47-BC4B-F9200F05A003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CF9E2E1-FA67-4B47-BC4B-F9200F05A003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CF9E2E1-FA67-4B47-BC4B-F9200F05A003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CF9E2E1-FA67-4B47-BC4B-F9200F05A003}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
