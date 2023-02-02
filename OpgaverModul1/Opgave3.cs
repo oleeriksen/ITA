@@ -9,15 +9,11 @@ namespace OpgaverModul1
             int distance = Convert.ToInt32(Console.ReadLine());
             Console.Write("Indtast køn (Mand/Kvinde): ");
             string gender = Console.ReadLine();
-            Console.Write("Indtast alder: ");
-            int age = Convert.ToInt32(Console.ReadLine());
 
             double kondi = ComputeKondi(distance, gender);
 
             int kondiInteger = Convert.ToInt32(kondi);
-            Console.WriteLine("Dit kondital er: " + kondiInteger);
-
-            
+            Console.WriteLine("Dit kondital er: " + kondiInteger);      
         }
 
         private static double ComputeKondi(int distance, string? gender)

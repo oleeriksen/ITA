@@ -15,7 +15,9 @@ namespace OpgaverModul1
 
             double kondi = ComputeKondi(distance, gender);
 
-            Console.WriteLine("Dit kondital er: " + ((int)kondi));
+            int kondiInteger = Convert.ToInt32(kondi);
+
+            Console.WriteLine("Dit kondital er: " + kondiInteger);
 
             string classifier = ComputeClassifier(gender, kondi, age);
 
