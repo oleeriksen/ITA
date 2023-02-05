@@ -8,7 +8,7 @@ namespace OpgaverModul1
             Console.Write("Indtast distance: ");
             int distance = Convert.ToInt32(Console.ReadLine());
             Console.Write("Indtast køn (Mand/Kvinde): ");
-            string gender = Console.ReadLine();
+            string? gender = Console.ReadLine();
 
             double kondi = ComputeKondi(distance, gender);
 
