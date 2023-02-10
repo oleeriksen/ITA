@@ -3,12 +3,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
-        arrayTest2();
+        Console.WriteLine("Hello, World - Modul 3");
+        Opgave1.Run();
     }
 
     static void arrayTest1() {
-        int[] a = { 0, 2, 4, 5 };
+        int[] a = { };
 
         for (int i = 0; i < a.Length; i++)
         {
