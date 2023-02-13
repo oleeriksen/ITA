@@ -4,7 +4,7 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Hello, World - Modul 3");
-        Opgave1.Run();
+        Opgave2.Run();
     }
 
     static void arrayTest1() {
