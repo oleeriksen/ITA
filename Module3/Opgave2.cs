@@ -5,13 +5,14 @@ namespace Module3
 	{
         public static void Run()
         {
+            int[] grades = { -3, 0, 2, 4, 7, 10, 12 };
+
             int amount = ReadInt("Indtast antal tal: ");
             int[] data = new int[amount];
-            for (int i = 0; i < data.Length; i++)
-            {
-                data[i] = ReadInt("Indtast tal: ");
+            for (int i = 0; i < data.Length; i++){
+                data[i] = ReadInt("Indtast karakter: ");
             }
-            int[] grades = { -3, 0, 2, 4, 7, 10, 12 };
+            
             foreach (int grade in grades) {
                 int count = Count(data, grade);
                 Console.WriteLine("Karakter: " + grade + ", antal: " + count);
