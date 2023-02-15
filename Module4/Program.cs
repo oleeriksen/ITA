@@ -3,6 +3,10 @@ class Program
 {
     static void Main(string[] args)
     {
+        DiceApp.Run();
+    }
+
+    void div() {
         Console.WriteLine("Hello, World!");
 
         Person peter = new Person();

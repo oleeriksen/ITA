@@ -40,9 +40,9 @@ namespace Module3
         static double Average(int[] a)
         {
             double sum = 0;
-            for (int i = 0; i < a.Length; i++)
+            foreach (var value in a)
             {
-                sum = sum + a[i];
+                sum += value;
             }
             return sum / a.Length;
         }
