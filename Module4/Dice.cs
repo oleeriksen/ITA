@@ -7,16 +7,16 @@ namespace Module4
 
         private int size;
 
-        private Random r;
+       
 
         public Dice(int size)
         {
             this.size = size;
-            r = new Random();
             Roll();
         }
 
-        public void Roll() { 
+        public void Roll() {
+            Random r = new Random();
             eyes = r.Next(1,size + 1);
         }
 
