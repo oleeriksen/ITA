@@ -3,7 +3,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        DiceApp.Run();
+        Opgave1.Run();
     }
 
     void div() {

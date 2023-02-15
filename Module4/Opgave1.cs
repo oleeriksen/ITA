@@ -4,7 +4,7 @@ namespace Module4
     public class Opgave1
     {
         public static void Run() {
-            int N = 6000000;
+            int N = 60000000;
             int[] data = new int[N];
 
             Dice d = new Dice(6);

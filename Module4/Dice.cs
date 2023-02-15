@@ -7,7 +7,8 @@ namespace Module4
 
         private int size;
 
-       
+        Random r = new Random();
+
 
         public Dice(int size)
         {
@@ -16,7 +17,7 @@ namespace Module4
         }
 
         public void Roll() {
-            Random r = new Random();
+           
             eyes = r.Next(1,size + 1);
         }
 
