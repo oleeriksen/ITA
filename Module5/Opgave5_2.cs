@@ -9,7 +9,8 @@ namespace Module5
             for (int i = 0; i < 10; i++)
             {
                 dc.Shake();
-                Console.WriteLine(dc.Eyes[0] + " " + dc.Eyes[1]);
+                int[] result = dc.Eyes();
+                Console.WriteLine(result[0] + " " + result[1]);
 
             }
         }

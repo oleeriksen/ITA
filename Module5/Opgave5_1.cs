@@ -23,7 +23,9 @@ namespace Module5
         private static bool IsUnique2(List<int> aList)
         {
 
-            return aList.Distinct().Count() == aList.Count();
+            if (aList.Distinct().Count() == aList.Count())
+                return true;
+            return false;
         }
     }
 }
