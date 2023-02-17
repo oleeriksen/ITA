@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module4", "Module4\Module4.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module5", "Module5\Module5.csproj", "{6F001B4B-5061-45B7-BAB1-BB21F1F61EC9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordguesserConsole", "WordguesserConsole\WordguesserConsole.csproj", "{48062D87-F968-42AB-9914-9FA0F7B1DC61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{6F001B4B-5061-45B7-BAB1-BB21F1F61EC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F001B4B-5061-45B7-BAB1-BB21F1F61EC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F001B4B-5061-45B7-BAB1-BB21F1F61EC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48062D87-F968-42AB-9914-9FA0F7B1DC61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48062D87-F968-42AB-9914-9FA0F7B1DC61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48062D87-F968-42AB-9914-9FA0F7B1DC61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48062D87-F968-42AB-9914-9FA0F7B1DC61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
