@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Module4
+namespace Module5
 {
     class Dice
     {
