@@ -3,7 +3,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Opgave5_2.Run();
+        Nicoline.Diceapp.Run();
     }
 
     static void ListTest1() {
