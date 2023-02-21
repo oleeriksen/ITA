@@ -11,14 +11,12 @@ namespace Module5
         {
             d1 = new Dice(6);
             d2 = new Dice(6);
-
         }
-        // metod
+        // metoder
         public void Shake()
         {
             d1.Roll();
             d2.Roll();
-
         }
 
         public int[] Eyes()
