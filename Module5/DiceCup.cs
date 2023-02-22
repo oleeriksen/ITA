@@ -4,26 +4,38 @@ namespace Module5
     public class DiceCup
     {
         // state
-        private Dice d1;
-        private Dice d2;
+        private List<Dice> mineTerninger;
 
-        public DiceCup()
+        public DiceCup(int antalTerninger)
         {
-            d1 = new Dice(6);
-            d2 = new Dice(6);
+            mineTerninger = new List<Dice>();
+            for (int i = 0; i < antalTerninger; i++)
+            {
+                mineTerninger.Add(new Dice(6));
+            }
         }
         // metoder
         public void Shake()
         {
-            d1.Roll();
-            d2.Roll();
+            foreach (Dice dice in mineTerninger)
+                dice.Roll();
         }
 
         public int[] Eyes()
         {
-                if (d1.Eyes < d2.Eyes)
-                    return new int[] { d1.Eyes, d2.Eyes };
-                return new int[] { d2.Eyes, d1.Eyes };
+            int[] resultat = new int[mineTerninger.Count];
+            for (int i = 0; i < mineTerninger.Count; i++)
+            {
+                resultat[i] = mineTerninger[i].Eyes;
+            }
+            return resultat;
+        }
+
+        public bool IsMeyer() {
+            //if (Eyes()[0] == 1 && Eyes()[1] == 2)
+            //    return true;
+            return false;
+            //return Eyes + d2.Eyes == 3;
         }
     }
 }
