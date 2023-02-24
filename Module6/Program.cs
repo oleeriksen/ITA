@@ -4,17 +4,21 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Hello, World!");
+        SalaryApp app = new SalaryApp();
+        app.Init();
     }
 
     static void opgave6_1() {
         PermanentEmployee fullTime = new PermanentEmployee
         {
-            Name = "peter",
+            Name = "Ander And",
             Address = "byvej 12",
             Email = "peter@peter.com",
-            TaxDeduction = 3400,
-            TaxPrecentage = 34,
-            Salary = 23000
+            TaxDeduction = 5000,
+            TaxPrecentage = 32,
+            Salary = 23000,
+            IsMemberOfLunch = true,
+            IsMemberGiftbox = false
         };
         ParttimeEmployee partTime = new ParttimeEmployee
         {
@@ -26,6 +30,10 @@ class Program
             HourlySalary = 123,
             Hours = 110
         };
+
+        fullTime.PrintSalaryNote();
+
+        partTime.PrintSalaryNote();
     }
 }
 
