@@ -7,7 +7,7 @@ namespace Module7
         { }
 
         public override void Roll() {
-            for (int i = 0; i < 4; i++)
+            for (int i = 0; i < 2; i++)
             {
                 base.Roll();
                 if (Eyes == 6)
